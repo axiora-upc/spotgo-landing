@@ -274,7 +274,6 @@ body {
   display: flex;
 }
 
-
 /* ===========================
    HERO
 =========================== */
@@ -415,6 +414,49 @@ h1 em {
   display: block;
   /* Sombra suave opcional, quítala si tu imagen ya tiene fondo */
   filter: drop-shadow(0 24px 48px rgba(13, 27, 75, 0.12));
+}
+
+/* ===========================
+   TRUSTED BAR
+=========================== */
+.trusted-bar {
+  background: var(--white);
+  border-top: 1px solid rgba(13, 27, 75, 0.07);
+  border-bottom: 1px solid rgba(13, 27, 75, 0.07);
+  padding: 16px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.trusted-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+
+.trusted-logos {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+
+.trusted-logos span {
+  font-family: "Sora", sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text-mid);
+  opacity: 0.55;
+  transition: opacity 0.2s;
+  white-space: nowrap;
+}
+.trusted-logos span:hover {
+  opacity: 1;
 }
 
 /* ===========================
