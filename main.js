@@ -126,6 +126,10 @@ const LANG_STORAGE_KEY = 'spotgo-language';
         });
     };
 
+const TRANSLATIONS_BASE_PATH = 'i18n';
+const translationCache = {};
+const translationRequests = {};
+
 const emptyTranslation = {
     documentLang: 'en',
     pageTitle: document.title,
