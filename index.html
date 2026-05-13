@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SpotGo helps drivers find and reserve parking in seconds while giving operators real-time occupancy insights, pricing control, and revenue analytics." />
   <title>SpotGo — Smart Parking</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
@@ -28,7 +29,22 @@
       </ul>
 
       <div class="nav-actions">
-        <a href="#" class="btn-lang lang-toggle" id="langToggle" aria-label="Switch language" aria-live="polite"><span class="lang-code">US</span></a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+        <div class="lang-dropdown" id="langDropdown">
+          <button class="lang-btn" id="langBtn" aria-label="Select language" aria-expanded="false" aria-haspopup="true">
+            <span class="lang-icon"><i class="fa-solid fa-globe"></i></span>
+            <span class="lang-current">EN</span>
+            <i class="fa-solid fa-chevron-down lang-arrow"></i>
+          </button>
+          <div class="lang-menu" id="langMenu" role="menu">
+            <button class="lang-option active" data-lang="en" role="menuitem">EN — English</button>
+            <button class="lang-option" data-lang="es" role="menuitem">ES — Español</button>
+            <button class="lang-option" data-lang="pt" role="menuitem">PT — Português</button>
+            <button class="lang-option" data-lang="fr" role="menuitem">FR — Français</button>
+          </div>
+        </div>
         <a href="#" class="btn-ghost">Sign in</a>
         <a href="#" class="btn-cta">Open app <i class="fa-solid fa-arrow-right-to-bracket" style="color: rgb(255, 255, 255);"></i></a>
       </div>
@@ -46,13 +62,29 @@
       <a href="#pricing">Pricing</a>
       <a href="#faq">FAQ</a>
       <div class="mobile-actions">
-        <a href="#" class="btn-lang lang-toggle" id="mobileLangToggle" aria-label="Switch language" aria-live="polite"><span class="lang-code">US</span></a>
+        <button class="theme-toggle mobile-theme-toggle" id="mobileThemeToggle" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon" id="mobileThemeIcon"></i>
+        </button>
+        <div class="lang-dropdown mobile-lang-dropdown" id="mobileLangDropdown">
+          <button class="lang-btn" id="mobileLangBtn" aria-label="Select language" aria-expanded="false" aria-haspopup="true">
+            <span class="lang-icon"><i class="fa-solid fa-globe"></i></span>
+            <span class="lang-current">EN</span>
+            <i class="fa-solid fa-chevron-down lang-arrow"></i>
+          </button>
+          <div class="lang-menu mobile-lang-menu" id="mobileLangMenu" role="menu">
+            <button class="lang-option active" data-lang="en" role="menuitem">EN — English</button>
+            <button class="lang-option" data-lang="es" role="menuitem">ES — Español</button>
+            <button class="lang-option" data-lang="pt" role="menuitem">PT — Português</button>
+            <button class="lang-option" data-lang="fr" role="menuitem">FR — Français</button>
+          </div>
+        </div>
         <a href="#" class="btn-ghost">Sign in</a>
         <a href="#" class="btn-cta">Open app <i class="fa-solid fa-arrow-right-to-bracket" style="color: rgb(255, 255, 255);"></i></a>
       </div>
     </div>
   </nav>
 
+  <main>
   <!-- ===== HERO ===== -->
   <section class="hero" id="hero">
     <div class="hero-content">
@@ -483,26 +515,10 @@
  
       </div>
     </div>
-  </section>
-
-    <!-- ===== CTA SECTION ===== -->
-  <section class="cta-section">
-    <div class="cta-inner">
-      <h2>Smarter parking,<br />on both sides of the curb</h2>
-      <p>Drivers find spots faster. Operators run lots smarter. Pick your side and get started in minutes.</p>
-      <div class="cta-buttons">
-        <a href="#drivers" class="btn-cta-white">
-          I'm a Driver <i class="fa-solid fa-arrow-right-to-bracket" style="color: rgb(37, 65, 125);"></i>
-        </a>
-        <a href="#operators" class="btn-cta-outline">
-          I'm a Parking Operator <i class="fa-solid fa-arrow-right-to-bracket" style="color: rgb(255, 255, 255);"></i>
-        </a>
-      </div>
-    </div>
-  </section>
- 
-  <!-- ===== FOOTER ===== -->
-  <footer>
+</section>
+  </main>
+    <!-- ===== FOOTER ===== -->
+    <footer>
     <div class="footer-inner">
  
       <div class="footer-top">

@@ -1,0 +1,277 @@
+{
+  "documentLang": "pt",
+  "pageTitle": "SpotGo - Estacionamento Inteligente",
+  "langCode": "PT",
+  "text": {
+    ".nav-actions .btn-ghost": "Entrar",
+    ".mobile-actions .btn-ghost": "Entrar",
+    ".hero-sub": "Motoristas encontram e reservam vagas abertas em segundos com dados IoT em tempo real. Operadores gerenciam espaços, monitoram ocupação e aumentam receita a partir de um único painel.",
+    ".trusted-label": "CONFIADO POR MOTORISTAS E OPERADORES EM",
+    ".drivers-section h2": "Estacione sem estresse, sempre",
+    ".drivers-section .section-sub": "Reduza o tempo que você passa procurando uma vaga. O SpotGo oferece disponibilidade em tempo real e reservas com um toque para cada motorista — preços e planos são definidos por cada operador, então você sempre vê tarifas locais antecipadamente.",
+    ".operators-section h2": "Gerencie seu negócio de estacionamento de forma mais inteligente",
+    ".operators-section .section-sub": "Gerencie cada espaço a partir de um único painel. Defina seus próprios preços, planos de assinatura e regras de acesso — depois monitore ocupação, classifique usuários e aumente a receita por espaço.",
+    ".how-section .section-badge": "Como funciona",
+    ".how-section h2": "Estacione em 3 passos simples",
+    ".pricing-section .section-badge": "Preços",
+    ".pricing-section h2": "Transparente para motoristas, flexível para operadores",
+    ".pricing-section .section-sub": "Motoristas sempre veem tarifas locais antecipadamente — definidas por cada operador. Operadores escolhem um plano SpotGo que se ajusta ao seu portfólio.",
+    ".driver-card-left h3": "O preço é definido por cada operador de estacionamento",
+    ".driver-card-left > p": "O SpotGo não vende assinaturas para motoristas. Taxas por hora, passes mensais e descontos são definidos por cada estacionamento, então você sempre paga o preço local — sem surpresas de nossa parte. Compare opções no mapa em tempo real e reserve em segundos.",
+    ".rates-title": "TAXAS DE EXEMPLO",
+    ".rates-note": "As taxas mostradas são exemplos. Os preços reais são definidos por cada operador.",
+    ".plan-popular-badge": "Mais popular",
+    ".plan-custom": "Personalizado",
+    ".op-plans-grid .op-plan-card:nth-child(1) .btn-plan-outline": "Começar Starter",
+    ".op-plans-grid .op-plan-card:nth-child(2) .btn-plan-primary": "Começar Growth",
+    ".op-plans-grid .op-plan-card:nth-child(3) .btn-plan-outline": "Contatar vendas",
+    ".testimonials-section .section-badge": "Depoimentos",
+    ".testimonials-section h2": "Amado por motoristas, confiável por operadores",
+    ".faq-section .section-badge": "FAQ",
+    ".faq-section h2": "Perguntas frequentes",
+    ".cta-inner p": "Motoristas encontram vagas mais rápido. Operadores gerenciam estacionamentos de forma mais inteligente. Escolha seu lado e comece em minutos.",
+    ".footer-tagline": "Estacionamento inteligente para cidades modernas. Em tempo real, confiável e reservado.",
+    ".footer-copy": "© 2026 SpotGo. Todos os direitos reservados.",
+    ".footer-made": "Feito com cuidado para motoristas em todo lugar."
+  },
+  "html": {
+    ".nav-actions .btn-cta": "Abrir app <i class=\"fa-solid fa-arrow-right-to-bracket\" style=\"color: rgb(255, 255, 255);\"></i>",
+    ".mobile-actions .btn-cta": "Abrir app <i class=\"fa-solid fa-arrow-right-to-bracket\" style=\"color: rgb(255, 255, 255);\"></i>",
+    ".badge": "<i class=\"fa-solid fa-bolt\" style=\"color: rgb(23, 57, 205);\"></i>Uma plataforma &middot; Motoristas e Operadores",
+    ".hero-content h1": "Estacionamento inteligente,<br><em>para ambos os lados da <br>calçada.</em>",
+    ".hero-ctas .btn-primary": "Sou Motorista <i class=\"fa-solid fa-arrow-right-to-bracket\" style=\"color: rgb(255, 255, 255);\"></i>",
+    ".hero-ctas .btn-secondary": "Sou Operador de Estacionamento <i class=\"fa-solid fa-arrow-right-to-bracket\" style=\"color: rgb(38, 66, 126);\"></i>",
+    ".drivers-section .section-badge": "<i class=\"fa-solid fa-car-side\" style=\"color: #2563eb;\"></i> Para Motoristas",
+    ".drivers-section .section-cta .btn-primary": "Abrir app para motoristas <i class=\"fa-solid fa-arrow-right-to-bracket\" style=\"color: rgb(255, 255, 255);\"></i>",
+    ".operators-section .section-badge": "<i class=\"fa-solid fa-building\"></i> Para Operadores de Estacionamento",
+    ".operators-section .section-cta .btn-secondary": "Explorar planos de operadores <i class=\"fa-solid fa-arrow-right-to-bracket\" style=\"color: rgb(38, 66, 126);\"></i>",
+    ".for-drivers-label": "<i class=\"fa-solid fa-car-side\"></i> PARA MOTORISTAS",
+    ".driver-card-left .btn-primary": "Encontrar uma vaga perto de você <i class=\"fa-solid fa-arrow-right\"></i>",
+    ".for-operators-label": "<i class=\"fa-solid fa-building\"></i> PARA OPERADORES DE ESTACIONAMENTO",
+    ".cta-inner h2": "Estacionamento inteligente,<br>em ambos os lados da calçada",
+    ".cta-buttons .btn-cta-white": "Sou Motorista <i class=\"fa-solid fa-arrow-right-to-bracket\" style=\"color: rgb(37, 65, 125);\"></i>",
+    ".cta-buttons .btn-cta-outline": "Sou Operador de Estacionamento <i class=\"fa-solid fa-arrow-right-to-bracket\" style=\"color: rgb(255, 255, 255);\"></i>"
+  },
+  "listText": [
+    {
+      "selector": ".nav-links a",
+      "values": [
+        "Para Motoristas",
+        "Para Operadores",
+        "Como funciona",
+        "Preços",
+        "FAQ"
+      ]
+    },
+    {
+      "selector": ".mobile-menu > a",
+      "values": [
+        "Para Motoristas",
+        "Para Operadores",
+        "Como funciona",
+        "Preços",
+        "FAQ"
+      ]
+    },
+    {
+      "selector": ".drivers-grid .d-card h3",
+      "values": [
+        "Disponibilidade em tempo real",
+        "Menos tempo procurando",
+        "Chegadas sem estresse",
+        "Locais favoritos",
+        "Fácil acesso",
+        "Pagamentos seguros"
+      ]
+    },
+    {
+      "selector": ".drivers-grid .d-card p",
+      "values": [
+        "Sensores IoT em tempo real mostram vagas abertas em cada estacionamento conectado — sem mais adivinhações.",
+        "Reserve antes de sair de casa e dirija direto para sua vaga.",
+        "Alertas inteligentes antes que seu tempo acabar — estenda com um toque.",
+        "Salve os estacionamentos que você mais usa e reserve novamente instantaneamente.",
+        "Entrada e saída sem fricção — sua reserva é seu passe, sem bilhetes.",
+        "Pagamento criptografado com um toque com cartões e carteiras principais — ao preço definido por cada estacionamento."
+      ]
+    },
+    {
+      "selector": ".operators-grid .o-card h3",
+      "values": [
+        "Gerenciamento de espaços",
+        "Monitoramento em tempo real",
+        "Preços e planos personalizados",
+        "Classificação de usuários e acessos",
+        "Análises e relatórios",
+        "Otimização de receita"
+      ]
+    },
+    {
+      "selector": ".operators-grid .o-card p",
+      "values": [
+        "Configure estacionamentos, zonas e vagas individuais com capacidade, serviços e horários.",
+        "Acompanhe o status de cada vaga em tempo real — ocupada, reservada ou disponível — em todos os seus sites.",
+        "Defina suas taxas por hora, preços dinâmicos, passes mensais e regras de desconto por estacionamento.",
+        "Segmente motoristas (visitante, residente, empleado, VIP) e defina regras de acesso por grupo.",
+        "Tendências de ocupação, horários de pico e detalhamento de receita para melhores decisões.",
+        "Sugestões de preços dinâmicos e fluxos de reserva que maximizam a rotatividade por vaga."
+      ]
+    },
+    {
+      "selector": ".steps-grid .step-card h3",
+      "values": [
+        "Encontre uma vaga",
+        "Reserve e pague",
+        "Dirija e estacione"
+      ]
+    },
+    {
+      "selector": ".steps-grid .step-card p",
+      "values": [
+        "Navegue pelo mapa em tempo real e filtre por preço, serviços ou distância.",
+        "Escolha seu horário e confirme com pagamento seguro com um toque.",
+        "Navegue até sua vaga. Estenda ou avalie sua estadia pelo app."
+      ]
+    },
+    {
+      "selector": ".stats-bar .stat-item .stat-label",
+      "values": [
+        "Reservas feitas",
+        "Estacionamentos conectados",
+        "Chegadas no horário",
+        "Avaliação média"
+      ]
+    },
+    {
+      "selector": ".op-plans-grid .op-plan-card .plan-name",
+      "values": [
+        "STARTER",
+        "GROWTH",
+        "ENTERPRISE"
+      ]
+    },
+    {
+      "selector": ".op-plans-grid .op-plan-card .plan-tagline",
+      "values": [
+        "Um estacionamento, até 50 vagas.",
+        "Múltiplos estacionamentos, até 500 vagas.",
+        "Cobertura de cidade e franquias."
+      ]
+    },
+    {
+      "selector": ".testimonials-grid .t-card .t-quote",
+      "values": [
+        "\"Não faço mais volta em quarteirões. O SpotGo me encontra uma vaga antes mesmo de eu sair de casa.\"",
+        "\"A ocupação em nossos 4 estacionamentos finalmente está visível em um só lugar. Receita por vaga subiu 22%.\"",
+        "\"A configuração levou uma tarde. Nossa equipe agora passa menos tempo no chão e mais com clientes.\""
+      ]
+    },
+    {
+      "selector": ".testimonials-grid .t-card .t-role",
+      "values": [
+        "通勤族 diária — Motorista",
+        "Líder de operações — CityPark",
+        "Gerente — Aero Mall Parking"
+      ]
+    },
+    {
+      "selector": ".faq-list .faq-item .faq-question span",
+      "values": [
+        "Como funciona a disponibilidade em tempo real?",
+        "Como motorista, posso cancelar uma reserva?",
+        "Como os operadores adicionam seus estacionamentos?",
+        "Que análises os operadores получают?",
+        "Vocês suportam vagas de recarga para VE?"
+      ]
+    },
+    {
+      "selector": ".faq-list .faq-item .faq-answer p",
+      "values": [
+        "Cada estacionamento conectado usa sensores IoT no chão que reportam o status de cada vaga a cada poucos segundos para nossa nuvem, que transmite atualizações diretamente para os painéis de motoristas e operadores.",
+        "Sim. Cancelamentos feitos com mais de 15 minutos de antecedência são totalmente reembolsados.",
+        "Fornecemos kits de sensores IoT e configuração guiada. A maioria dos operadores de um único estacionamento fica ativo em um dia; carteiras maiores recebem um gerente dedicado.",
+        "Ocupação em tempo real, mapas de calor de horários de pico, receita por vaga, conversão de reservas e comparações lado a lado entre sites — tudo exportável.",
+        "Com certeza. Motoristas podem filtrar por VE, e operadores podem marcar e precificar vagas com recarga VE separadamente."
+      ]
+    },
+    {
+      "selector": ".footer-col h4",
+      "values": [
+        "Produto",
+        "Empresa",
+        "Legal"
+      ]
+    },
+    {
+      "selector": ".footer-col:nth-child(2) ul li a",
+      "values": [
+        "Para Motoristas",
+        "Para Operadores",
+        "Preços",
+        "Painel"
+      ]
+    },
+    {
+      "selector": ".footer-col:nth-child(3) ul li a",
+      "values": [
+        "Sobre",
+        "Blog",
+        "Carreiras",
+        "Contato"
+      ]
+    },
+    {
+      "selector": ".footer-col:nth-child(4) ul li a",
+      "values": [
+        "Privacidade",
+        "Termos",
+        "Cookies",
+        "Segurança"
+      ]
+    },
+    {
+      "selector": ".footer-bottom-links a",
+      "values": [
+        "Privacidade",
+        "Termos",
+        "Cookies"
+      ]
+    }
+  ],
+  "listHtml": [
+    {
+      "selector": ".hero .trust-bar span",
+      "values": [
+        "<i class=\"fa-regular fa-circle-check\" style=\"color: rgb(99, 230, 148);\"></i> Sem taxas de configuração",
+        "<i class=\"fa-regular fa-circle-check\" style=\"color: rgb(99, 230, 148);\"></i> Cancele quando quiser",
+        "<i class=\"fa-regular fa-circle-check\" style=\"color: rgb(99, 230, 148);\"></i> Suporte 24/7"
+      ]
+    },
+    {
+      "selector": ".driver-features span",
+      "values": [
+        "<i class=\"fa-regular fa-circle-check\"></i> Ver taxas em tempo real por estacionamento",
+        "<i class=\"fa-regular fa-circle-check\"></i> Pague apenas o que o operador cobra",
+        "<i class=\"fa-regular fa-circle-check\"></i> Assine o plano de um estacionamento se disponível",
+        "<i class=\"fa-regular fa-circle-check\"></i> Não requer assinatura do SpotGo"
+      ]
+    },
+    {
+      "selector": ".op-plans-grid .op-plan-card .plan-features span",
+      "values": [
+        "<i class=\"fa-regular fa-circle-check\"></i> Monitoramento em tempo real",
+        "<i class=\"fa-regular fa-circle-check\"></i> Análises básicas",
+        "<i class=\"fa-regular fa-circle-check\"></i> Gerenciamento de reservas",
+        "<i class=\"fa-regular fa-circle-check\"></i> Suporte por e-mail",
+        "<i class=\"fa-regular fa-circle-check\"></i> Análises e relatórios avançados",
+        "<i class=\"fa-regular fa-circle-check\"></i> Ferramentas de preços dinâmicos",
+        "<i class=\"fa-regular fa-circle-check\"></i> Funções de equipe e zonas",
+        "<i class=\"fa-regular fa-circle-check\"></i> Suporte prioritário",
+        "<i class=\"fa-regular fa-circle-check\"></i> Estacionamentos e vagas ilimitados",
+        "<i class=\"fa-regular fa-circle-check\"></i> Integrações personalizadas e API",
+        "<i class=\"fa-regular fa-circle-check\"></i> Gerente de sucesso dedicado",
+        "<i class=\"fa-regular fa-circle-check\"></i> SLA e onboarding"
+      ]
+    }
+  ]
+}
