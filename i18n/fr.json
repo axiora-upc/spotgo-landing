@@ -1,0 +1,277 @@
+{
+  "documentLang": "fr",
+  "pageTitle": "SpotGo - Stationnement Intelligent",
+  "langCode": "FR",
+  "text": {
+    ".nav-actions .btn-ghost": "Se connecter",
+    ".mobile-actions .btn-ghost": "Se connecter",
+    ".hero-sub": "Les conducteurs trouvent et réservent des places disponibles en quelques secondes grâce aux données IoT en temps réel. Les opérateurs gèrent les espaces, surveillent l'occupation et augmentent leurs revenus depuis un seul tableau de bord.",
+    ".trusted-label": "FAIT CONFIANCE PAR LES CONDUCTEURS ET OPÉRATEURS À",
+    ".drivers-section h2": "Stationnez sans stress, à chaque fois",
+    ".drivers-section .section-sub": "Réduisez le temps passé à chercher une place. SpotGo offre une disponibilité en temps réel et des réservations en un seul geste à chaque conducteur — les prix et forfaits sont définis par chaque opérateur, vous voyez donc toujours les tarifs locaux à l'avance.",
+    ".operators-section h2": "Gérez votre entreprise de stationnement plus intelligemment",
+    ".operators-section .section-sub": "Gérez chaque espace depuis un seul tableau de bord. Définissez vos propres prix, forfaits d'abonnement et règles d'accès — puis surveillez l'occupation, classifiez les utilisateurs et augmentez les revenus par place.",
+    ".how-section .section-badge": "Comment ça marche",
+    ".how-section h2": "Stationnez en 3 étapes simples",
+    ".pricing-section .section-badge": "Tarifs",
+    ".pricing-section h2": "Transparent pour les conducteurs, flexible pour les opérateurs",
+    ".pricing-section .section-sub": "Les conducteurs voient toujours les tarifs locaux à l'avance — définis par chaque opérateur. Les opérateurs choisissent un plan SpotGo qui correspond à leur portefeuille.",
+    ".driver-card-left h3": "Le prix est fixé par chaque opérateur de stationnement",
+    ".driver-card-left > p": "SpotGo ne vend pas d'abonnements aux conducteurs. Les tarifs horaires, abonnements mensuels et remises sont définis par chaque parking, vous payez donc toujours le prix local — sans surprise de notre part. Comparez les options sur la carte en temps réel et réservez en quelques secondes.",
+    ".rates-title": "TARIFS EXEMPLES",
+    ".rates-note": "Les tarifs indiqués sont des exemples. Les prix réels sont définis par chaque opérateur.",
+    ".plan-popular-badge": "Le plus populaire",
+    ".plan-custom": "Sur mesure",
+    ".op-plans-grid .op-plan-card:nth-child(1) .btn-plan-outline": "Commencer Starter",
+    ".op-plans-grid .op-plan-card:nth-child(2) .btn-plan-primary": "Commencer Growth",
+    ".op-plans-grid .op-plan-card:nth-child(3) .btn-plan-outline": "Contacter les ventes",
+    ".testimonials-section .section-badge": "Témoignages",
+    ".testimonials-section h2": "Apprécié par les conducteurs, fiable pour les opérateurs",
+    ".faq-section .section-badge": "FAQ",
+    ".faq-section h2": "Questions fréquentes",
+    ".cta-inner p": "Les conducteurs trouvent des places plus rapidement. Les opérateurs gèrent les parkings plus intelligemment. Choisissez votre côté et commencez en quelques minutes.",
+    ".footer-tagline": "Stationnement intelligent pour les villes modernes. En temps réel, fiable et réservé.",
+    ".footer-copy": "© 2026 SpotGo. Tous droits réservés.",
+    ".footer-made": "Fait avec soin pour les conducteurs partout."
+  },
+  "html": {
+    ".nav-actions .btn-cta": "Ouvrir l'app <i class=\"fa-solid fa-arrow-right-to-bracket\" style=\"color: rgb(255, 255, 255);\"></i>",
+    ".mobile-actions .btn-cta": "Ouvrir l'app <i class=\"fa-solid fa-arrow-right-to-bracket\" style=\"color: rgb(255, 255, 255);\"></i>",
+    ".badge": "<i class=\"fa-solid fa-bolt\" style=\"color: rgb(23, 57, 205);\"></i>Une plateforme &middot; Conducteurs et Opérateurs",
+    ".hero-content h1": "Stationnement intelligent,<br><em>pour les deux côtés du <br>bord de la route.</em>",
+    ".hero-ctas .btn-primary": "Je suis Conducteur <i class=\"fa-solid fa-arrow-right-to-bracket\" style=\"color: rgb(255, 255, 255);\"></i>",
+    ".hero-ctas .btn-secondary": "Je suis Opérateur de Stationnement <i class=\"fa-solid fa-arrow-right-to-bracket\" style=\"color: rgb(38, 66, 126);\"></i>",
+    ".drivers-section .section-badge": "<i class=\"fa-solid fa-car-side\" style=\"color: #2563eb;\"></i> Pour les Conducteurs",
+    ".drivers-section .section-cta .btn-primary": "Ouvrir l'app conducteur <i class=\"fa-solid fa-arrow-right-to-bracket\" style=\"color: rgb(255, 255, 255);\"></i>",
+    ".operators-section .section-badge": "<i class=\"fa-solid fa-building\"></i> Pour les Opérateurs de Stationnement",
+    ".operators-section .section-cta .btn-secondary": "Explorer les plans opérateurs <i class=\"fa-solid fa-arrow-right-to-bracket\" style=\"color: rgb(38, 66, 126);\"></i>",
+    ".for-drivers-label": "<i class=\"fa-solid fa-car-side\"></i> POUR LES CONDUCTEURS",
+    ".driver-card-left .btn-primary": "Trouver une place près de chez vous <i class=\"fa-solid fa-arrow-right\"></i>",
+    ".for-operators-label": "<i class=\"fa-solid fa-building\"></i> POUR LES OPÉRATEURS DE STATIONNEMENT",
+    ".cta-inner h2": "Stationnement intelligent,<br>des deux côtés du bord de la route",
+    ".cta-buttons .btn-cta-white": "Je suis Conducteur <i class=\"fa-solid fa-arrow-right-to-bracket\" style=\"color: rgb(37, 65, 125);\"></i>",
+    ".cta-buttons .btn-cta-outline": "Je suis Opérateur de Stationnement <i class=\"fa-solid fa-arrow-right-to-bracket\" style=\"color: rgb(255, 255, 255);\"></i>"
+  },
+  "listText": [
+    {
+      "selector": ".nav-links a",
+      "values": [
+        "Pour les Conducteurs",
+        "Pour les Opérateurs",
+        "Comment ça marche",
+        "Tarifs",
+        "FAQ"
+      ]
+    },
+    {
+      "selector": ".mobile-menu > a",
+      "values": [
+        "Pour les Conducteurs",
+        "Pour les Opérateurs",
+        "Comment ça marche",
+        "Tarifs",
+        "FAQ"
+      ]
+    },
+    {
+      "selector": ".drivers-grid .d-card h3",
+      "values": [
+        "Disponibilité en temps réel",
+        "Moins de temps à chercher",
+        "Arrivées sans stress",
+        "Lieux favoris",
+        "Accès facile",
+        "Paiements sécurisés"
+      ]
+    },
+    {
+      "selector": ".drivers-grid .d-card p",
+      "values": [
+        "Les capteurs IoT en temps réel montrent les places disponibles dans chaque parking connecté — plus de devinettes.",
+        "Réservez avant de partir de chez vous et conduisez directement à votre place.",
+        "Alertes intelligentes avant la fin de votre temps — prolongez d'un geste.",
+        "Enregistrez les parkings que vous utilisez le plus et réservez à nouveau instantanément.",
+        "Entrée et sortie sans friction — votre réservation est votre ticket, pas de billets à manipuler.",
+        "Paiement crypté en un geste avec toutes les cartes et portefeuilles principaux — au prix fixé par chaque parking."
+      ]
+    },
+    {
+      "selector": ".operators-grid .o-card h3",
+      "values": [
+        "Gestion des espaces",
+        "Surveillance en temps réel",
+        "Tarification et forfaits personnalisés",
+        "Classification des utilisateurs et accès",
+        "Analyses et rapports",
+        "Optimisation des revenus"
+      ]
+    },
+    {
+      "selector": ".operators-grid .o-card p",
+      "values": [
+        "Configurez les parkings, zones et places individuelles avec capacité, services et horaires.",
+        "Suivez le statut de chaque place en temps réel — occupée, réservée ou disponible — sur tous vos sites.",
+        "Définissez vos tarifs horaires, tarification dynamique, abonnements mensuels et règles de remise par parking.",
+        "Segmentez les conducteurs (visiteur, résident, employé, VIP) et définissez des règles d'accès par groupe.",
+        "Tendances d'occupation, heures de pointe et ventilations de revenus pour de meilleures décisions.",
+        "Suggestions de tarification dynamique et flux de réservation qui maximisent le taux de rotation par place."
+      ]
+    },
+    {
+      "selector": ".steps-grid .step-card h3",
+      "values": [
+        "Trouvez une place",
+        "Réservez et payez",
+        "Conduisez et stationnez"
+      ]
+    },
+    {
+      "selector": ".steps-grid .step-card p",
+      "values": [
+        "Parcourez la carte en temps réel et filtrez par prix, services ou distance.",
+        "Choisissez votre créneau horaire et confirmez avec un paiement sécurisé en un geste.",
+        "Naviguez vers votre place. Prolongez ou notez votre séjour depuis l'app."
+      ]
+    },
+    {
+      "selector": ".stats-bar .stat-item .stat-label",
+      "values": [
+        "Réservations effectuées",
+        "Parkings connectés",
+        "Arrivées à l'heure",
+        "Note moyenne"
+      ]
+    },
+    {
+      "selector": ".op-plans-grid .op-plan-card .plan-name",
+      "values": [
+        "STARTER",
+        "GROWTH",
+        "ENTERPRISE"
+      ]
+    },
+    {
+      "selector": ".op-plans-grid .op-plan-card .plan-tagline",
+      "values": [
+        "Un parking, jusqu'à 50 places.",
+        "Parkings multiples, jusqu'à 500 places.",
+        "Couverture ville et franchises."
+      ]
+    },
+    {
+      "selector": ".testimonials-grid .t-card .t-quote",
+      "values": [
+        "\"Je n'ai plus tourné en rond depuis des mois. SpotGo me trouve une place avant même que je parte de chez moi.\"",
+        "\"L'occupation de nos 4 parkings est enfin visible à un seul endroit. Les revenus par place ont augmenté de 22%.\"",
+        "\"La configuration a pris un après-midi. Notre équipe passe maintenant moins de temps sur le terrain et plus avec les clients.\""
+      ]
+    },
+    {
+      "selector": ".testimonials-grid .t-card .t-role",
+      "values": [
+        "Commuteur quotidien — Conducteur",
+        "Responsable des opérations — CityPark",
+        "Gérant — Aero Mall Parking"
+      ]
+    },
+    {
+      "selector": ".faq-list .faq-item .faq-question span",
+      "values": [
+        "Comment fonctionne la disponibilité en temps réel ?",
+        "En tant que conducteur, puis-je annuler une réservation ?",
+        "Comment les opérateurs enregistrent-ils leurs parkings ?",
+        "Quelles analyses les opérateurs obtiennent-ils ?",
+        "Supporter-vous les places de recharge pour VE ?"
+      ]
+    },
+    {
+      "selector": ".faq-list .faq-item .faq-answer p",
+      "values": [
+        "Chaque parking connecté utilise des capteurs IoT au sol qui signalent le statut de chaque place toutes les quelques secondes à notre cloud, qui diffuse les mises à jour directement vers les tableaux de bord des conducteurs et des opérateurs.",
+        "Oui. Les annulations effectuées plus de 15 minutes avant votre heure de début sont entièrement remboursées.",
+        "Nous fournissons des kits de capteurs IoT et une configuration guidée. La plupart des opérateurs de parking unique sont opérationnels en une journée ; les portefeuilles plus importants bénéficient d'un responsable dédié.",
+        "Occupation en temps réel, cartes de chaleur des heures de pointe, revenus par place, conversion des réservations et comparaisons de sites côte à côte — tout exportable.",
+        "Absolument. Les conducteurs peuvent filtrer par VE, et les opérateurs peuvent marquer et tarifer les places équipées de recharge VE séparément."
+      ]
+    },
+    {
+      "selector": ".footer-col h4",
+      "values": [
+        "Produit",
+        "Entreprise",
+        "Légal"
+      ]
+    },
+    {
+      "selector": ".footer-col:nth-child(2) ul li a",
+      "values": [
+        "Pour les Conducteurs",
+        "Pour les Opérateurs",
+        "Tarifs",
+        "Tableau de bord"
+      ]
+    },
+    {
+      "selector": ".footer-col:nth-child(3) ul li a",
+      "values": [
+        "À propos",
+        "Blog",
+        "Carrières",
+        "Contact"
+      ]
+    },
+    {
+      "selector": ".footer-col:nth-child(4) ul li a",
+      "values": [
+        "Confidentialité",
+        "Conditions",
+        "Cookies",
+        "Sécurité"
+      ]
+    },
+    {
+      "selector": ".footer-bottom-links a",
+      "values": [
+        "Confidentialité",
+        "Conditions",
+        "Cookies"
+      ]
+    }
+  ],
+  "listHtml": [
+    {
+      "selector": ".hero .trust-bar span",
+      "values": [
+        "<i class=\"fa-regular fa-circle-check\" style=\"color: rgb(99, 230, 148);\"></i> Sans frais de configuration",
+        "<i class=\"fa-regular fa-circle-check\" style=\"color: rgb(99, 230, 148);\"></i> Annulez à tout moment",
+        "<i class=\"fa-regular fa-circle-check\" style=\"color: rgb(99, 230, 148);\"></i> Support 24/7"
+      ]
+    },
+    {
+      "selector": ".driver-features span",
+      "values": [
+        "<i class=\"fa-regular fa-circle-check\"></i> Voir les tarifs en temps réel par parking",
+        "<i class=\"fa-regular fa-circle-check\"></i> Payez uniquement ce que l'opérateur facture",
+        "<i class=\"fa-regular fa-circle-check\"></i> Abonnez-vous au plan d'un parking si disponible",
+        "<i class=\"fa-regular fa-circle-check\"></i> Aucun abonnement SpotGo requis"
+      ]
+    },
+    {
+      "selector": ".op-plans-grid .op-plan-card .plan-features span",
+      "values": [
+        "<i class=\"fa-regular fa-circle-check\"></i> Surveillance en temps réel",
+        "<i class=\"fa-regular fa-circle-check\"></i> Analytique de base",
+        "<i class=\"fa-regular fa-circle-check\"></i> Gestion des réservations",
+        "<i class=\"fa-regular fa-circle-check\"></i> Support par e-mail",
+        "<i class=\"fa-regular fa-circle-check\"></i> Analytique et rapports avancés",
+        "<i class=\"fa-regular fa-circle-check\"></i> Outils de tarification dynamique",
+        "<i class=\"fa-regular fa-circle-check\"></i> Rôles d'équipe et zones",
+        "<i class=\"fa-regular fa-circle-check\"></i> Support prioritaire",
+        "<i class=\"fa-regular fa-circle-check\"></i> Parkings et places illimités",
+        "<i class=\"fa-regular fa-circle-check\"></i> Intégrations personnalisées et API",
+        "<i class=\"fa-regular fa-circle-check\"></i> Responsable succès dédié",
+        "<i class=\"fa-regular fa-circle-check\"></i> SLA et intégration"
+      ]
+    }
+  ]
+}
