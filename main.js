@@ -73,6 +73,7 @@ const setNavbarShadow = () => {
             }
         });
     });
+    }
 
     // FAQ accordion
     document.querySelectorAll('.faq-question').forEach((btn) => {
