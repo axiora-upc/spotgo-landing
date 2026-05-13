@@ -92,7 +92,6 @@ const setNavbarShadow = () => {
             }
         });
     });
-});
 
 // ===== LANGUAGE DROPDOWN =====
 const LANG_STORAGE_KEY = 'spotgo-language';
@@ -295,3 +294,4 @@ document.querySelectorAll('.lang-option').forEach((option) => {
             });
         }
     });
+});
