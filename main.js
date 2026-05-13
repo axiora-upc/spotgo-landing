@@ -72,7 +72,7 @@ const setNavbarShadow = () => {
                 closeMobileMenu();
             }
         });
-    }
+    });
 
     // FAQ accordion
     document.querySelectorAll('.faq-question').forEach((btn) => {
