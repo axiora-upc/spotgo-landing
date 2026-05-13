@@ -60,19 +60,17 @@ const setNavbarShadow = () => {
 
         mobileMenu.querySelectorAll('a').forEach((link) => {
             link.addEventListener('click', () => {
-                if (!link.classList.contains('lang-toggle')) {
+                if (!link.classList.contains('lang-btn')) {
                     closeMobileMenu();
                 }
             });
         });
 
-    mobileMenu.querySelectorAll('a').forEach((link) => {
-        link.addEventListener('click', () => {
-            if (!link.classList.contains('lang-btn')) {
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 920) {
                 closeMobileMenu();
             }
         });
-    });
     }
 
     // FAQ accordion
