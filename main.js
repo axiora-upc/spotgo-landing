@@ -97,15 +97,6 @@ const setNavbarShadow = () => {
 // ===== LANGUAGE DROPDOWN =====
 const LANG_STORAGE_KEY = 'spotgo-language';
 
-const setText = (selector, value) => {
-    const element = document.querySelector(selector);
-    if (element) {
-        element.textContent = value;
-    }
-};
-
-    const LANG_STORAGE_KEY = 'spotgo-language';
-
     const setText = (selector, value) => {
         const element = document.querySelector(selector);
         if (element) {
