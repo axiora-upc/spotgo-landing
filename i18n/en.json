@@ -1,7 +1,7 @@
 {
   "documentLang": "en",
   "pageTitle": "SpotGo - Smart Parking",
-  "langCode": "US",
+  "langCode": "EN",
   "text": {
     ".nav-actions .btn-ghost": "Sign in",
     ".mobile-actions .btn-ghost": "Sign in",
@@ -29,6 +29,9 @@
     ".testimonials-section h2": "Loved by drivers, trusted by operators",
     ".faq-section .section-badge": "FAQ",
     ".faq-section h2": "Frequently asked questions",
+    ".team-section .section-badge": "Our Team",
+    ".team-section h2": "Meet the team behind SpotGo",
+    ".team-section .section-sub": "Five Software Engineering students building SpotGo — combining different strengths, stacks and perspectives to make smart parking happen.",
     ".cta-inner p": "Drivers find spots faster. Operators run lots smarter. Pick your side and get started in minutes.",
     ".footer-tagline": "Smart parking for modern cities. Real-time, reliable, reserved.",
     ".footer-copy": "© 2026 SpotGo. All rights reserved.",
@@ -235,6 +238,36 @@
         "Privacy",
         "Terms",
         "Cookies"
+      ]
+    },
+    {
+      "selector": ".team-grid .team-card .team-name",
+      "values": [
+        "Adrian Ruiz Mideyros",
+        "Nestor Alonso Rojas Tello",
+        "Paul Alexandro Espinoza Lopez",
+        "Cesar Jair Contreras Rojas",
+        "Johan Alexis Contreras Granados"
+      ]
+    },
+    {
+      "selector": ".team-grid .team-card .team-role",
+      "values": [
+        "App & Game Developer",
+        "Web & Software Developer",
+        "Backend & Database Developer",
+        "Software Developer",
+        "Frontend & Web Developer"
+      ]
+    },
+    {
+      "selector": ".team-grid .team-card .team-bio",
+      "values": [
+        "Software Engineering student, passionate about technology since childhood. App and game developer with knowledge of C++, Python, web technologies and more. I consider myself proactive, always willing to learn and support wherever needed.",
+        "Software Engineering student with knowledge of C++, Python, JavaScript and CSS. I consider myself collaborative and responsible, always ready to answer questions and propose solutions to any challenge.",
+        "Software Engineering student with knowledge of C++, SQL and Python. I consider myself a responsible person who does not hesitate to make tough decisions when needed; I tend to be very self-critical and I am always there to help and listen to my teammates.",
+        "Software Engineering student. I have practiced with Python, C++, Java and others. I consider myself responsible, collaborative, kind and willing to help my teammates — someone who strives to find solutions to problems.",
+        "Organized and responsible Software Engineering student, focused on efficiency and quality in both individual and group projects. My commitment to continuous learning lets me adapt to new challenges and contribute innovative ideas. I have technical foundations in Python, C++, JavaScript, web development (Vue.js, Tailwind) and SQL/NoSQL databases."
       ]
     }
   ],
