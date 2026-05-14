@@ -29,6 +29,9 @@
     ".testimonials-section h2": "Apprécié par les conducteurs, fiable pour les opérateurs",
     ".faq-section .section-badge": "FAQ",
     ".faq-section h2": "Questions fréquentes",
+    ".team-section .section-badge": "Notre Équipe",
+    ".team-section h2": "Découvrez l'équipe derrière SpotGo",
+    ".team-section .section-sub": "Cinq étudiants en Génie Logiciel qui construisent SpotGo — en combinant différentes forces, technologies et perspectives pour concrétiser le stationnement intelligent.",
     ".cta-inner p": "Les conducteurs trouvent des places plus rapidement. Les opérateurs gèrent les parkings plus intelligemment. Choisissez votre côté et commencez en quelques minutes.",
     ".footer-tagline": "Stationnement intelligent pour les villes modernes. En temps réel, fiable et réservé.",
     ".footer-copy": "© 2026 SpotGo. Tous droits réservés.",
@@ -235,6 +238,36 @@
         "Confidentialité",
         "Conditions",
         "Cookies"
+      ]
+    },
+    {
+      "selector": ".team-grid .team-card .team-name",
+      "values": [
+        "Adrian Ruiz Mideyros",
+        "Nestor Alonso Rojas Tello",
+        "Paul Alexandro Espinoza Lopez",
+        "Cesar Jair Contreras Rojas",
+        "Johan Alexis Contreras Granados"
+      ]
+    },
+    {
+      "selector": ".team-grid .team-card .team-role",
+      "values": [
+        "Développeur d'Apps et de Jeux",
+        "Développeur Web et Logiciel",
+        "Développeur Backend et Bases de Données",
+        "Développeur Logiciel",
+        "Développeur Frontend et Web"
+      ]
+    },
+    {
+      "selector": ".team-grid .team-card .team-bio",
+      "values": [
+        "Étudiant en Génie Logiciel, passionné de technologie depuis l'enfance. Développeur d'applications et de jeux vidéo, avec des connaissances en C++, Python, technologies web et autres. Je me considère comme une personne proactive, très disposée à apprendre constamment et à aider là où c'est nécessaire.",
+        "Étudiant en Génie Logiciel. J'ai des connaissances en C++, Python, JavaScript et CSS. Je me considère comme une personne collaborative, responsable et disposée à répondre aux questions et à proposer des solutions face à tout défi.",
+        "Étudiant en Génie Logiciel avec des connaissances en C++, SQL et Python. Je me considère comme une personne responsable qui n'hésite pas à prendre des décisions difficiles au moment voulu ; j'ai tendance à être très autocritique et je suis toujours là pour aider et écouter mes coéquipiers.",
+        "Étudiant en Génie Logiciel. J'ai pratiqué avec Python, C++, Java entre autres. Je me considère comme quelqu'un de responsable, collaboratif, aimable et prêt à aider mes coéquipiers ; quelqu'un qui s'efforce de trouver des solutions aux problèmes.",
+        "Je suis un étudiant en Génie Logiciel organisé et responsable, orienté vers l'efficacité et la qualité dans les projets individuels ou en groupe. Mon engagement envers l'apprentissage continu me permet de m'adapter à de nouveaux défis et d'apporter des idées innovantes. Je dispose de bases techniques en Python, C++, JavaScript, développement web (Vue.js, Tailwind) et bases de données SQL/NoSQL."
       ]
     }
   ],
