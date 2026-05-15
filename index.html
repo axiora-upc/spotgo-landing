@@ -63,24 +63,28 @@
       <a href="#pricing">Pricing</a>
       <a href="#faq">FAQ</a>
       <div class="mobile-actions">
-        <button class="theme-toggle mobile-theme-toggle" id="mobileThemeToggle" aria-label="Toggle dark mode">
-          <i class="fa-solid fa-moon" id="mobileThemeIcon"></i>
-        </button>
-        <div class="lang-dropdown mobile-lang-dropdown" id="mobileLangDropdown">
-          <button class="lang-btn" id="mobileLangBtn" aria-label="Select language" aria-expanded="false" aria-haspopup="true">
-            <span class="lang-icon"><i class="fa-solid fa-globe"></i></span>
-            <span class="lang-current">EN</span>
-            <i class="fa-solid fa-chevron-down lang-arrow"></i>
+        <div class="mobile-settings">
+          <button class="theme-toggle mobile-theme-toggle" id="mobileThemeToggle" aria-label="Toggle dark mode">
+            <i class="fa-solid fa-moon" id="mobileThemeIcon"></i>
           </button>
-          <div class="lang-menu mobile-lang-menu" id="mobileLangMenu" role="menu">
-            <button class="lang-option active" data-lang="en" role="menuitem">EN — English</button>
-            <button class="lang-option" data-lang="es" role="menuitem">ES — Español</button>
-            <button class="lang-option" data-lang="pt" role="menuitem">PT — Português</button>
-            <button class="lang-option" data-lang="fr" role="menuitem">FR — Français</button>
+          <div class="lang-dropdown mobile-lang-dropdown" id="mobileLangDropdown">
+            <button class="lang-btn" id="mobileLangBtn" aria-label="Select language" aria-expanded="false" aria-haspopup="true">
+              <span class="lang-icon"><i class="fa-solid fa-globe"></i></span>
+              <span class="lang-current">EN</span>
+              <i class="fa-solid fa-chevron-down lang-arrow"></i>
+            </button>
+            <div class="lang-menu mobile-lang-menu" id="mobileLangMenu" role="menu">
+              <button class="lang-option active" data-lang="en" role="menuitem">EN — English</button>
+              <button class="lang-option" data-lang="es" role="menuitem">ES — Español</button>
+              <button class="lang-option" data-lang="pt" role="menuitem">PT — Português</button>
+              <button class="lang-option" data-lang="fr" role="menuitem">FR — Français</button>
+            </div>
           </div>
         </div>
-        <a href="#" class="btn-ghost">Sign in</a>
+        <div class="mobile-settings">
+          <a href="#" class="btn-ghost">Sign in</a>
         <a href="#" class="btn-cta">Open app <i class="fa-solid fa-arrow-right-to-bracket" style="color: rgb(255, 255, 255);"></i></a>
+        </div>
       </div>
     </div>
   </nav>
@@ -516,7 +520,89 @@
  
       </div>
     </div>
-</section>
+  </section>
+
+  <!-- ===== OUR TEAM ===== -->
+  <section class="team-section" id="team">
+    <div class="section-inner">
+
+      <div class="section-badge">Our Team</div>
+      <h2>Meet the team behind SpotGo</h2>
+      <p class="section-sub">
+        Five Software Engineering students building SpotGo — combining different
+        strengths, stacks and perspectives to make smart parking happen.
+      </p>
+
+      <div class="team-grid">
+
+        <!-- Adrian -->
+        <div class="team-card">
+          <div class="team-photo-wrap">
+            <img src="assets/images/team-adrian-ruiz.png" alt="Adrian Ruiz Mideyros" class="team-photo" loading="lazy" />
+          </div>
+          <h3 class="team-name">Adrian Ruiz Mideyros</h3>
+          <span class="team-role">App &amp; Game Developer</span>
+          <p class="team-bio">Software Engineering student, passionate about technology since childhood. App and game developer with knowledge of C++, Python, web technologies and more. I consider myself proactive, always willing to learn and support wherever needed.</p>
+          <div class="team-tags">
+            <span>C++</span><span>Python</span><span>Web</span><span>Game Dev</span>
+          </div>
+        </div>
+
+        <!-- Nestor -->
+        <div class="team-card">
+          <div class="team-photo-wrap">
+            <img src="assets/images/team-nestor-rojas.png" alt="Nestor Alonso Rojas Tello" class="team-photo" loading="lazy" />
+          </div>
+          <h3 class="team-name">Nestor Alonso Rojas Tello</h3>
+          <span class="team-role">Web &amp; Software Developer</span>
+          <p class="team-bio">Software Engineering student with knowledge of C++, Python, JavaScript and CSS. I consider myself collaborative and responsible, always ready to answer questions and propose solutions to any challenge.</p>
+          <div class="team-tags">
+            <span>C++</span><span>Python</span><span>JavaScript</span><span>CSS</span>
+          </div>
+        </div>
+
+        <!-- Paul -->
+        <div class="team-card">
+          <div class="team-photo-wrap">
+            <img src="assets/images/team-paul-espinoza.png" alt="Paul Alexandro Espinoza Lopez" class="team-photo" loading="lazy" />
+          </div>
+          <h3 class="team-name">Paul Alexandro Espinoza Lopez</h3>
+          <span class="team-role">Backend &amp; Database Developer</span>
+          <p class="team-bio">Software Engineering student with knowledge of C++, SQL and Python. I consider myself a responsible person who does not hesitate to make tough decisions when needed; I tend to be very self-critical and I am always there to help and listen to my teammates.</p>
+          <div class="team-tags">
+            <span>C++</span><span>SQL</span><span>Python</span>
+          </div>
+        </div>
+
+        <!-- Cesar -->
+        <div class="team-card">
+          <div class="team-photo-wrap">
+            <img src="assets/images/team-cesar-contreras.png" alt="Cesar Jair Contreras Rojas" class="team-photo" loading="lazy" />
+          </div>
+          <h3 class="team-name">Cesar Jair Contreras Rojas</h3>
+          <span class="team-role">Software Developer</span>
+          <p class="team-bio">Software Engineering student. I have practiced with Python, C++, Java and others. I consider myself responsible, collaborative, kind and willing to help my teammates — someone who strives to find solutions to problems.</p>
+          <div class="team-tags">
+            <span>Python</span><span>C++</span><span>Java</span>
+          </div>
+        </div>
+
+        <!-- Johan -->
+        <div class="team-card">
+          <div class="team-photo-wrap">
+            <img src="assets/images/team-johan-contreras.png" alt="Johan Alexis Contreras Granados" class="team-photo" loading="lazy" />
+          </div>
+          <h3 class="team-name">Johan Alexis Contreras Granados</h3>
+          <span class="team-role">Frontend &amp; Web Developer</span>
+          <p class="team-bio">Organized and responsible Software Engineering student, focused on efficiency and quality in both individual and group projects. My commitment to continuous learning lets me adapt to new challenges and contribute innovative ideas. I have technical foundations in Python, C++, JavaScript, web development (Vue.js, Tailwind) and SQL/NoSQL databases.</p>
+          <div class="team-tags">
+            <span>Python</span><span>C++</span><span>JavaScript</span><span>Vue.js</span><span>Tailwind</span><span>SQL/NoSQL</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
   </main>
     <!-- ===== FOOTER ===== -->
     <footer>
