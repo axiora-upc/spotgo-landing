@@ -1573,7 +1573,7 @@ footer {
   padding-top: 24px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 16px;
   flex-wrap: wrap;
 }
@@ -1631,16 +1631,6 @@ footer {
     max-width: 100%;
   }
 
-  .drivers-grid,
-  .operators-grid,
-  .steps-grid,
-  .testimonials-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .stats-bar {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .driver-card {
     flex-direction: column;
     gap: 28px;
@@ -1658,15 +1648,15 @@ footer {
   .trusted-logos {
     justify-content: center;
   }
-  .drivers-grid, .operators-grid {
+  .drivers-grid, .operators-grid, .stats-bar, .team-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .steps-grid, .testimonials-grid, .team-grid {
+  .steps-grid, .testimonials-grid {
     grid-template-columns: 1fr;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   .cta-inner {
     padding: 48px 32px;
   }
@@ -1678,7 +1668,7 @@ footer {
     align-items: flex-start;
   }
 
-  .drivers-grid, .operators-grid {
+  .drivers-grid, .operators-grid, .team-grid {
     grid-template-columns: 1fr;
   }
 
