@@ -30,6 +30,9 @@
     ".faq-section .section-badge": "FAQ",
     ".faq-section h2": "Preguntas frecuentes",
     ".cta-inner p": "Los conductores encuentran espacios mas rapido. Los operadores gestionan estacionamientos mejor. Elige tu lado y empieza en minutos.",
+    ".team-section .section-badge": "Nuestro Equipo",
+    ".team-section h2": "Conoce al equipo detrás de SpotGo",
+    ".team-section .section-sub": "Cinco estudiantes de Ingeniería de Software construyendo SpotGo — combinando distintas fortalezas, tecnologías y perspectivas para hacer realidad el estacionamiento inteligente.",
     ".footer-tagline": "Estacionamiento inteligente para ciudades modernas. En tiempo real, confiable y reservado.",
     ".footer-copy": "© 2026 SpotGo. Todos los derechos reservados.",
     ".footer-made": "Hecho con cuidado para conductores de todas partes."
@@ -235,6 +238,36 @@
         "Privacidad",
         "Terminos",
         "Cookies"
+      ]
+    },
+    {
+      "selector": ".team-grid .team-card .team-name",
+      "values": [
+        "Adrian Ruiz Mideyros",
+        "Nestor Alonso Rojas Tello",
+        "Paul Alexandro Espinoza Lopez",
+        "Cesar Jair Contreras Rojas",
+        "Johan Alexis Contreras Granados"
+      ]
+    },
+    {
+      "selector": ".team-grid .team-card .team-role",
+      "values": [
+        "Desarrollador de Apps y Videojuegos",
+        "Desarrollador Web y de Software",
+        "Desarrollador Backend y de Bases de Datos",
+        "Desarrollador de Software",
+        "Desarrollador Frontend y Web"
+      ]
+    },
+    {
+      "selector": ".team-grid .team-card .team-bio",
+      "values": [
+        "Estudiante de Ingeniería de Software, apasionado por la tecnología desde pequeño. Desarrollador de aplicaciones y videojuegos, con conocimientos en C++, Python, tecnologías web y otras. Me considero una persona proactiva, con gran disposición para aprender constantemente y apoyar en lo que se necesite.",
+        "Estudiante de Ingeniería de Software. Tengo conocimientos en C++, Python, JavaScript y CSS. Me considero una persona colaborativa, responsable y con disposición para resolver dudas y proponer soluciones ante cualquier desafío.",
+        "Estudiante de Ingeniería de Software con conocimientos en C++, SQL y Python. Me considero una persona responsable que no duda en tomar decisiones fuertes en el momento que se presentan; suelo ser muy autocrítico y siempre estoy para ayudar y escuchar a mis demás compañeros.",
+        "Estudiante de Ingeniería de Software. He practicado con Python, C++, Java entre otros. Me considero alguien responsable, colaborativo, amable y dispuesto a ayudar a mis compañeros; soy alguien que se esfuerza por encontrar soluciones a problemas.",
+        "Soy un estudiante de Ingeniería de Software organizado y responsable, orientado a la eficiencia y la calidad en proyectos individuales o grupales. Mi compromiso con el aprendizaje continuo me permite adaptarme a nuevos retos y aportar ideas innovadoras. Cuento con bases técnicas en Python, C++, JavaScript, desarrollo web (Vue.js, Tailwind) y bases de datos SQL/NoSQL."
       ]
     }
   ],
