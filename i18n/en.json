@@ -1,7 +1,7 @@
 {
   "documentLang": "en",
   "pageTitle": "SpotGo - Smart Parking",
-  "langCode": "US",
+  "langCode": "EN",
   "text": {
     ".nav-actions .btn-ghost": "Sign in",
     ".mobile-actions .btn-ghost": "Sign in",
@@ -32,7 +32,7 @@
     ".cta-inner p": "Drivers find spots faster. Operators run lots smarter. Pick your side and get started in minutes.",
     ".team-section .section-badge": "Our Team",
     ".team-section h2": "Meet the team behind SpotGo",
-    ".team-section .section-sub": "Five Software Engineering students building SpotGo — combining different strengths, stacks and perspectives to make smart parking happen.",
+    ".team-section .section-sub": "Six Software Engineering students building SpotGo — combining different strengths, stacks and perspectives to make smart parking happen.",
     ".footer-tagline": "Smart parking for modern cities. Real-time, reliable, reserved.",
     ".footer-copy": "© 2026 Axiora. All rights reserved.",
     ".footer-made": "Made with care for drivers everywhere."
@@ -257,7 +257,8 @@
         "Web & Software Developer",
         "Backend & Database Developer",
         "Software Developer",
-        "Frontend & Web Developer"
+        "Frontend & Web Developer",
+        "Fronted Developer"
       ]
     },
     {
@@ -267,7 +268,8 @@
         "Software Engineering student with knowledge of C++, Python, JavaScript and CSS. I consider myself collaborative and responsible, always ready to answer questions and propose solutions to any challenge.",
         "Software Engineering student with knowledge of C++, SQL and Python. I consider myself a responsible person who does not hesitate to make tough decisions when needed; I tend to be very self-critical and I am always there to help and listen to my teammates.",
         "Software Engineering student. I have practiced with Python, C++, Java and others. I consider myself responsible, collaborative, kind and willing to help my teammates — someone who strives to find solutions to problems.",
-        "Organized and responsible Software Engineering student, focused on efficiency and quality in both individual and group projects. My commitment to continuous learning lets me adapt to new challenges and contribute innovative ideas. I have technical foundations in Python, C++, JavaScript, web development (Vue.js, Tailwind) and SQL/NoSQL databases."
+        "Organized and responsible Software Engineering student, focused on efficiency and quality in both individual and group projects. My commitment to continuous learning lets me adapt to new challenges and contribute innovative ideas. I have technical foundations in Python, C++, JavaScript, web development (Vue.js, Tailwind) and SQL/NoSQL databases.",
+        "I consider myself a responsible person when working in a team, always proactive and willing to take charge in critical situations. I love programming and all aspects of software development, including video game development and cybersecurity within the Red Team. I have knowledge of Python, SQL, C++, and web development. My skills will be a great asset to the project."
       ]
     }
   ],
