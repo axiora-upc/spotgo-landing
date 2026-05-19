@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="SpotGo helps drivers find and reserve parking in seconds while giving operators real-time occupancy insights, pricing control, and revenue analytics." />
   <title>SpotGo — Smart Parking</title>
+  <link rel="icon" type="image/png" href="assets/images/spotgo-logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
@@ -62,24 +63,28 @@
       <a href="#pricing">Pricing</a>
       <a href="#faq">FAQ</a>
       <div class="mobile-actions">
-        <button class="theme-toggle mobile-theme-toggle" id="mobileThemeToggle" aria-label="Toggle dark mode">
-          <i class="fa-solid fa-moon" id="mobileThemeIcon"></i>
-        </button>
-        <div class="lang-dropdown mobile-lang-dropdown" id="mobileLangDropdown">
-          <button class="lang-btn" id="mobileLangBtn" aria-label="Select language" aria-expanded="false" aria-haspopup="true">
-            <span class="lang-icon"><i class="fa-solid fa-globe"></i></span>
-            <span class="lang-current">EN</span>
-            <i class="fa-solid fa-chevron-down lang-arrow"></i>
+        <div class="mobile-settings">
+          <button class="theme-toggle mobile-theme-toggle" id="mobileThemeToggle" aria-label="Toggle dark mode">
+            <i class="fa-solid fa-moon" id="mobileThemeIcon"></i>
           </button>
-          <div class="lang-menu mobile-lang-menu" id="mobileLangMenu" role="menu">
-            <button class="lang-option active" data-lang="en" role="menuitem">EN — English</button>
-            <button class="lang-option" data-lang="es" role="menuitem">ES — Español</button>
-            <button class="lang-option" data-lang="pt" role="menuitem">PT — Português</button>
-            <button class="lang-option" data-lang="fr" role="menuitem">FR — Français</button>
+          <div class="lang-dropdown mobile-lang-dropdown" id="mobileLangDropdown">
+            <button class="lang-btn" id="mobileLangBtn" aria-label="Select language" aria-expanded="false" aria-haspopup="true">
+              <span class="lang-icon"><i class="fa-solid fa-globe"></i></span>
+              <span class="lang-current">EN</span>
+              <i class="fa-solid fa-chevron-down lang-arrow"></i>
+            </button>
+            <div class="lang-menu mobile-lang-menu" id="mobileLangMenu" role="menu">
+              <button class="lang-option active" data-lang="en" role="menuitem">EN — English</button>
+              <button class="lang-option" data-lang="es" role="menuitem">ES — Español</button>
+              <button class="lang-option" data-lang="pt" role="menuitem">PT — Português</button>
+              <button class="lang-option" data-lang="fr" role="menuitem">FR — Français</button>
+            </div>
           </div>
         </div>
-        <a href="https://spotgo-frontend.vercel.app?_vercel_share=FQZVYDWBeAZFnl4m3d4WqnII69DhXpVe" class="btn-ghost">Sign in</a>
-        <a href="https://spotgo-frontend.vercel.app?_vercel_share=FQZVYDWBeAZFnl4m3d4WqnII69DhXpVe" class="btn-cta">Open app <i class="fa-solid fa-arrow-right-to-bracket" style="color: rgb(255, 255, 255);"></i></a>
+        <div class="mobile-settings">
+          <a href="#" class="btn-ghost">Sign in</a>
+        <a href="#" class="btn-cta">Open app <i class="fa-solid fa-arrow-right-to-bracket" style="color: rgb(255, 255, 255);"></i></a>
+        </div>
       </div>
     </div>
   </nav>
@@ -515,9 +520,9 @@
  
       </div>
     </div>
-</section>
+  </section>
 
-  <!-- ===== ABOUT THE TEAM ===== -->
+  <!-- ===== OUR TEAM ===== -->
   <section class="team-section" id="team">
     <div class="section-inner">
 
@@ -628,7 +633,7 @@
             <li><a href="#drivers">For Drivers</a></li>
             <li><a href="#operators">For Operators</a></li>
             <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#">Dashboard</a></li>
+            <li><a href="https://spotgo-frontend.vercel.app?_vercel_share=FQZVYDWBeAZFnl4m3d4WqnII69DhXpVe">Dashboard</a></li>
           </ul>
         </div>
  
@@ -636,7 +641,7 @@
         <div class="footer-col">
           <h4>Company</h4>
           <ul>
-            <li><a href="#">About</a></li>
+            <li><a href="#team">About</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Careers</a></li>
             <li><a href="#">Contact</a></li>
@@ -657,12 +662,7 @@
       </div>
  
       <div class="footer-bottom">
-        <span class="footer-copy">© 2026 SpotGo. All rights reserved.</span>
-        <div class="footer-bottom-links">
-          <a href="#">Privacy</a>
-          <a href="#">Terms</a>
-          <a href="#">Cookies</a>
-        </div>
+        <span class="footer-copy">© 2026 Axiora. All rights reserved.</span>
         <span class="footer-made">Made with care for drivers everywhere.</span>
       </div>
  
