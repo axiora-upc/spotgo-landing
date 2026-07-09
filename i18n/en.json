@@ -217,19 +217,15 @@
     {
       "selector": ".footer-col:nth-child(3) ul li a",
       "values": [
-        "About",
-        "Blog",
-        "Careers",
-        "Contact"
+        "Team",
+        "Product"
       ]
     },
     {
       "selector": ".footer-col:nth-child(4) ul li a",
       "values": [
         "Privacy",
-        "Terms",
-        "Cookies",
-        "Security"
+        "Terms"
       ]
     },
     {
